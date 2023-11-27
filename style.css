@@ -75,7 +75,7 @@ img {
   font-weight: 600;
   white-space: nowrap;
 }
-.btn-1{
+.btn-1 {
   background-color: #d10c0c;
 }
 /* end of article-1 */
@@ -88,6 +88,9 @@ img {
 }
 /* end of article-2 */
 /* article-3 */
+.colr {
+  background-color: #f1fac1;
+}
 .color {
   padding: 1rem;
   background-color: #f1fac1;
@@ -200,9 +203,9 @@ aside {
   background-color: #3a579d;
   color: white;
   width: 100%;
-  padding:1rem;
+  padding: 1rem;
 }
-.attach-center h3{
+.attach-center h3 {
   font-weight: lighter;
 }
 @media screen and (max-width: 800px) {

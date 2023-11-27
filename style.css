@@ -223,7 +223,10 @@ aside {
     text-align: center;
   }
   .footer{
-    margin-top: 620rem;
+    margin-top: 630rem;
     padding-bottom: 3rem;
+  }
+  .attach-footer{
+    display: none;
   }
 }

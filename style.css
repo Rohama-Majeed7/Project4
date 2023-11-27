@@ -193,7 +193,7 @@ aside {
 @media screen and (min-width: 850px) {
   .main {
     display: grid;
-    grid-template-columns: 60vw 20vw;
+    grid-template-columns: 60vw 25vw;
     grid-template-areas: "section-1 section-2";
     gap: 1rem;
   }

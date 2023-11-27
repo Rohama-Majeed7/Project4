@@ -220,16 +220,19 @@ aside {
     margin-bottom: 0;
   }
   .main {
-    width: 95vw;
+    width: 90vw;
   }
   .step {
     margin: 0;
+  }
+  .footer {
+    margin-bottom: ;
   }
 }
 @media screen and (min-width: 1150px) {
   .main {
     display: grid;
-    grid-template-columns: 60vw 25vw;
+    grid-template-columns: 750px 300px;
     grid-template-areas: "section-1 section-2";
     gap: 1rem;
     margin: auto;

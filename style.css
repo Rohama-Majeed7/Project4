@@ -28,12 +28,12 @@ h2 {
   margin: 0 auto;
 }
 /* section-1 */
-main{
+main {
   padding: 0.1rem;
 }
 .header {
   padding: 0.5rem;
-  background-color:#3a579d;
+  background-color: #3a579d;
 }
 .navbar {
   color: white;
@@ -69,11 +69,14 @@ img {
 .btn {
   padding: 0.8rem;
   width: 140px;
-  background-color: #d10c0c;
+  background-color: #ff0000;
   color: white;
   border: none;
   font-weight: 600;
   white-space: nowrap;
+}
+.btn-1{
+  background-color: #d10c0c;
 }
 /* end of article-1 */
 /* article-2 */
@@ -86,7 +89,7 @@ img {
 /* end of article-2 */
 /* article-3 */
 .color {
-  padding: 0.2rem;
+  padding: 1rem;
   background-color: #f1fac1;
   margin: 0.3rem 0;
 }
@@ -170,11 +173,12 @@ aside {
 /* end od section-2 */
 /* footer */
 .footer {
-  background-color: gray;
-  padding: 0.9rem;
-  font-size: 1rem;
+  background-color: #c5c5c5;
+  padding: 2.5rem;
+  font-size: 0.8rem;
   margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4.7rem;
+  color: gray;
 }
 .footer-1 {
   display: flex;
@@ -196,7 +200,10 @@ aside {
   background-color: #3a579d;
   color: white;
   width: 100%;
-  padding: 0.6rem;
+  padding:1rem;
+}
+.attach-center h3{
+  font-weight: lighter;
 }
 @media screen and (max-width: 800px) {
   .section-2 {
@@ -212,10 +219,10 @@ aside {
   .footer {
     margin-bottom: 0;
   }
-  .main{
+  .main {
     width: 95vw;
   }
-  .step{
+  .step {
     margin: 0;
   }
 }

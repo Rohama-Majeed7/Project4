@@ -28,7 +28,7 @@ h1 {
   padding: 0.5rem;
   background-color: blue;
 }
-.navbar{
+.navbar {
   color: white;
 }
 .main {
@@ -66,7 +66,7 @@ img {
 .btn {
   padding: 0.8rem;
   width: 140px;
-  background-color: #D10C0C;
+  background-color: #d10c0c;
   color: white;
   border: none;
   font-weight: 600;
@@ -88,7 +88,7 @@ img {
 }
 .color {
   padding: 0.2rem;
-  background-color: #F1FAC1;
+  background-color: #f1fac1;
   margin: 0.3rem 0;
 }
 /* end of article-3 */
@@ -115,9 +115,9 @@ img {
   flex-direction: column;
   gap: 2rem;
 }
-a{
+a {
   font-weight: 500;
-  color: #4B00FF;
+  color: #4b00ff;
   text-decoration: none;
 }
 .div-16 {
@@ -126,13 +126,13 @@ a{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background:#ecffc6;
+  background: #ecffc6;
 }
 .btn-2 {
   width: 100%;
 }
 .highlight {
-  background-color: #EEFF00;
+  background-color: #eeff00;
   margin: 1rem 0;
 }
 /* end of article-6 */
@@ -199,9 +199,8 @@ aside {
   width: 100%;
   padding: 0.6rem;
 }
-@media screen and (max-width:400px)
-  {
-  .footer{
+@media screen and (max-width: 400px) {
+  .footer {
     margin-top: 660rem;
   }
 }
@@ -217,16 +216,16 @@ aside {
   }
   .section-2 {
     margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
   .footer-1 {
     text-align: center;
   }
-  .footer{
+  .footer {
     margin-top: 630rem;
     padding-bottom: 3rem;
   }
-  .attach-footer{
+  .attach-footer {
     display: none;
   }
 }

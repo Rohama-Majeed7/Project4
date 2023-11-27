@@ -31,13 +31,6 @@ h1 {
 .navbar {
   color: white;
 }
-.main {
-  display: grid;
-  grid-template-columns: 60vw 20vw;
-  gap: 1rem;
-  grid-template-areas: "section-1 section-2";
-  height: 100vh;
-}
 .section-1 {
   grid-area: section-1;
 }
@@ -47,7 +40,6 @@ h1 {
 /* article-1 */
 .article-1 {
   margin: 2rem 0;
-  /* line-height: 1; */
 }
 .article-2,
 .article-3,
@@ -81,26 +73,17 @@ img {
 }
 /* end of article-2 */
 /* article-3 */
-.div-5 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 .color {
   padding: 0.2rem;
   background-color: #f1fac1;
   margin: 0.3rem 0;
 }
 /* end of article-3 */
-/* article-4 */
-.div-9 {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-/* end of article-4 */
 /* article-5 */
-.div-11 {
+.div-11,
+.div-15,
+.div-9,
+.div-5 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -110,11 +93,6 @@ img {
 }
 /* end of article-5 */
 /* article-6 */
-.div-15 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 a {
   font-weight: 500;
   color: #4b00ff;
@@ -173,9 +151,8 @@ aside {
 /* end od section-2 */
 /* footer */
 .footer {
-  margin-top: 10700px;
   background-color: gray;
-  padding: 0.5rem;
+  padding: 0.9rem;
 }
 .footer-1 {
   display: flex;
@@ -199,20 +176,9 @@ aside {
   width: 100%;
   padding: 0.6rem;
 }
-@media screen and (max-width: 400px) {
-  .footer {
-    margin-top: 660rem;
-  }
-}
 @media screen and (max-width: 800px) {
   body {
     font-size: 14px;
-  }
-  .main {
-    grid-template-areas:
-      "section-1"
-      "section-2";
-    grid-template-columns: 90vw;
   }
   .section-2 {
     margin: 5rem 0;
@@ -220,11 +186,15 @@ aside {
   .footer-1 {
     text-align: center;
   }
-  .footer {
-    margin-top: 645rem;
-    padding-bottom: 3rem;
-  }
   .attach-footer {
     display: none;
+  }
+}
+@media screen and (min-width: 850px) {
+  .main {
+    display: grid;
+    grid-template-columns: 60vw 20vw;
+    grid-template-areas: "section-1 section-2";
+    gap: 1rem;
   }
 }

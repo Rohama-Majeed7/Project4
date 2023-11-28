@@ -37,6 +37,9 @@ main {
 }
 .navbar {
   color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 .section-1 {
   grid-area: section-1;
@@ -177,7 +180,7 @@ aside {
   padding: 1.5rem;
   font-size: 0.8rem;
   margin-top: 5rem;
-  margin-bottom: 4.7rem;
+  /* margin-bottom: 4.7rem; */
   color: gray;
 }
 .footer-1 {
@@ -205,7 +208,45 @@ aside {
 .attach-center h3 {
   font-weight: lighter;
 }
-@media screen and (max-width: 800px) {
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #ff0000;
+  color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* footbar  */
+.fotbar {
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+.fotbar a {
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 1150px) {
   .section-2 {
     margin: 5rem 0;
   }
@@ -220,13 +261,16 @@ aside {
     margin-bottom: 0;
   }
   .main {
-    width: 85vw;
+    width: 95vw;
   }
   .step {
     margin: 0;
   }
   .footer {
     margin-bottom: 4rem;
+  }
+  .topnav {
+    display: none;
   }
 }
 @media screen and (min-width: 1150px) {
@@ -237,4 +281,50 @@ aside {
     gap: 1rem;
     margin: auto;
   }
+  .navbar i {
+    display: none;
+  }
 }
+@media screen and (max-width: 1050px) {
+  .fotbar {
+    flex-direction: column;
+    margin-bottom: 10rem;
+    text-align: center;
+    padding: 0;
+    width: 80vw;
+  }
+  .fotbar a {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* show navbar */
+.shownav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 2rem;
+  background-color: #3a579d;
+  transform: translatex(-100%);
+  transition: all 0.5s linear;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+  background-color: #3a579d;
+  transform: translatex(0);
+}
+.shownav a {
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+/* footer bar */

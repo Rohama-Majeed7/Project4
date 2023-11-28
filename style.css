@@ -240,11 +240,13 @@ aside {
   justify-content: space-between;
   gap: 3rem;
   align-items: center;
+  text-transform: capitalize;
 }
 .fotbar a {
   font-size: 1.2rem;
   color: white;
   padding: 0.5rem;
+  font-weight: 400;
 }
 @media screen and (max-width: 1150px) {
   .section-2 {
@@ -327,4 +329,3 @@ aside {
   color: white;
   font-size: 1.2rem;
 }
-/* footer bar */
